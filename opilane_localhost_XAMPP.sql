@@ -47,19 +47,18 @@ Count_ int,
 DateOfSale date);
 
 INSERT INTO Sale (idProduct, idCustomer, Count, DateOfSale)
-VALUES (5, 1, 2, '2024-03-11')
+VALUES (1, 1, 15, '2024-03-11')
 
 INSERT INTO Sale (idProduct, idCustomer, Count, DateOfSale)
-VALUES (6, 2, 3, '2024-03-11')
+VALUES (2, 2, 40, '2024-03-11')
 
 INSERT INTO Sale (idProduct, idCustomer, Count, DateOfSale)
-VALUES (7, 3, 4, '2024-03-11')
+VALUES (2, 3, 25, '2024-03-11')
 
 INSERT INTO Sale (idProduct, idCustomer, Count, DateOfSale)
-VALUES (8, 4, 5, '2024-03-11')
-
+VALUES (2, 4, 30, '2024-03-11')
 INSERT INTO Sale (idProduct, idCustomer, Count, DateOfSale)
-VALUES (9, 5, 6, '2024-03-11')
+VALUES (2, 5, 10, '2024-03-11')
 
 
 
