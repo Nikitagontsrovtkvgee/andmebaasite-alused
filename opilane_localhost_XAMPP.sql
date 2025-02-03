@@ -34,7 +34,7 @@ SELECT * FROM Category;
 SELECT * FROM Product;
 
 INSERT INTO Product (ProductName, idCategory, Price)
-VALUES ('Cola', 1, 4.0)
+VALUES ('Coca-Cola', 1, 1.50), ('Snickers', 2, 0.99), ('Ramen', 2, 6.00), ('Pasta', 2, 1.09)
 
 DELETE FROM Product WHERE IdCategory=1;
 
